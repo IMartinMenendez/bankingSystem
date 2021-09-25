@@ -33,7 +33,7 @@ public class UsersController {
 
   @GetMapping("/{id}")
   public CreateUserResponse getUser(@PathVariable long id) throws Exception {
-    return CreateUserResponse.fromEntity(userService.getUser(id).get()); // TODO: Quitar el .get();
+    return CreateUserResponse.fromEntity(userService.getUser(id).get());
   }
 
   @PostMapping

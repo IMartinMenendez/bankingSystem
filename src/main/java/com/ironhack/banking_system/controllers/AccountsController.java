@@ -37,7 +37,7 @@ public class AccountsController {
 
   @GetMapping("/{id}")
   public CreateAccountResponse getAccounts(@PathVariable long id, @AuthenticationPrincipal CustomUserDetails principal) throws Exception {
-    return CreateAccountResponse.fromEntity(accountService.getAccount(principal.getUser(), id).get()); // TODO: Quitar el .get();
+    return CreateAccountResponse.fromEntity(accountService.getAccount(principal.getUser(), id).get());
   }
 
   @PostMapping

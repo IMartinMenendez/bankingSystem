@@ -16,7 +16,7 @@ public class CreateAccountHolderRequest extends CreateUserRequest{
     @Getter
     private Address address;
     @Getter
-    private String mailingAddress; //TODO: Optional
+    private String mailingAddress;
     @Getter
     private String password;
 
