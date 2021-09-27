@@ -64,7 +64,7 @@ Please go to <a href="#functionalities">funcionalities</a> to know more about th
 ##  🚀&nbsp; Installation and Documentation 
 
 You will need to clone the project or download it as a zip from the [Banking System Repository](https://github.com/IMartinMenendez/bankingSystem.git). After that, you will need to replicate the database.
-You can find the database structure on Scratches and Consoles file named [SQL Structure](https://github.com/IMartinMenendez/bankingSystem.git). Just copy and create them.
+You can find the database structure Table.SQL file named [SQL Structure](https://github.com/IMartinMenendez/bankingSystem/blob/master/Table.sql). Just copy and create them.
 
 Also, you will need to set up the project and link it with the database. Please add the details on application.properties under the folder resources.
 This set up will be very similar to this:
