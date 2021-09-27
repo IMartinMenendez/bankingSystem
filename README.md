@@ -216,7 +216,7 @@ In order to receive and send money, Third-Party Users must provide their hashed 
 ---
 
 
-##💁‍♀️️‍ Author
+## 💁‍♀️️‍ Author
 
 <a href="https://imartinmenendez.github.io/portfolio/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/79365505?v=4" width="100px;" alt=""/>
