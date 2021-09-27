@@ -93,14 +93,14 @@ You will need to do it also to test the application.
 
 ## ✏️&nbsp; Commands to use
 
-###Admins
+### Admins
 
 Admins should be able to access the balance for any account and to modify it.
-###AccountHolders
+### AccountHolders
 
 AccountHolders should be able to access their own account balance
 Account holders should be able to transfer money from any of their accounts to any other account (regardless of owner). The transfer should only be processed if the account has sufficient funds. The user must provide the Primary or Secondary owner name and the id of the account that should receive the transfer.
-###Third-Party Users
+### Third-Party Users
 
 There must be a way for third-party users to receive and send money to other accounts.
 Third-party users must be added to the database by an admin.
@@ -132,7 +132,7 @@ In order to receive and send money, Third-Party Users must provide their hashed 
 
 <br>
 
-####To create new user:
+#### To create new user:
 
 ```
 {
@@ -215,7 +215,6 @@ In order to receive and send money, Third-Party Users must provide their hashed 
 
 ---
 
-[comment]: <> (## ❤️&nbsp; Community and Contributions)
 
 ##💁‍♀️️‍ Author
 

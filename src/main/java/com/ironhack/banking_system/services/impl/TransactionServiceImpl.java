@@ -79,8 +79,8 @@ public class TransactionServiceImpl implements TransactionService {
       throw new Exception("Account to doesn't exist");
     }
     Account to = maybeTo.get();
-    if(from.getStatus().equals(AccountStatus.FROZEN)){
-      throw new Exception("transaction didn't succeed because account from is frozen");
+    if(to.getStatus().equals(AccountStatus.FROZEN)){
+      throw new Exception("transaction didn't succeed because account to is frozen");
     }
 
     if(user instanceof ThirdPartyUser thirdPartyUser){

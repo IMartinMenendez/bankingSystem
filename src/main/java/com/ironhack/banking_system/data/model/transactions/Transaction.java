@@ -8,6 +8,7 @@ import com.ironhack.banking_system.data.model.users.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
@@ -28,6 +29,7 @@ public abstract class Transaction {
   @Id
   @GeneratedValue
   @Getter
+  @Setter
   private Long id;
 
   @Embedded
