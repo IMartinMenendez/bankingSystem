@@ -152,7 +152,7 @@ In order to receive and send money, Third-Party Users must provide their hashed 
 }
 ```
 
-####To create an account:
+#### To create an account:
 
 ```
 {
@@ -168,7 +168,7 @@ In order to receive and send money, Third-Party Users must provide their hashed 
 }
 ```
 
-####To create a transaction:
+#### To create a transaction:
 
 ```
 {
