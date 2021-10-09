@@ -91,6 +91,10 @@ You will need to do it also to test the application.
 
 ---
 
+## **Important:** 
+
+#### An admin user needs to be added to the database to have access to create new users and accounts. Please find the query on the [SQL Structure](https://github.com/IMartinMenendez/bankingSystem/blob/master/Table.sql).
+
 ## ✏️&nbsp; Commands to use
 
 ### Admins
